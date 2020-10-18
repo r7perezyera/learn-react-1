@@ -11,7 +11,7 @@ body {
 }
 
 h2 {
-    color: red;
+    color: #617d98;
 }
 
 .booklist {
@@ -41,4 +41,6 @@ h2 {
 
 .book h3 {
     color: grey;
+    font-size: 0.75rem;
+    margin-top: 0.25rem;
 }
