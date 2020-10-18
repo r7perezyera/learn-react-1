@@ -38,3 +38,8 @@ h2 {
 .book h2 {
     margin-top: 0.5rem;
 }
+
+.book h3 {
+    color: red; /* inline html has more priority */
+    letter-spacing: 5px;
+}

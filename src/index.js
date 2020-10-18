@@ -38,7 +38,11 @@ const Image = () => (
 
 const Title = () => <h2>CCNA 200-301 official cert guide</h2>;
 
-const Author = () => <h3>Wendel Odom</h3>;
+const Author = () => <h3 style={{
+                          color: '#70a37f',
+                          fontSize: '0.95rem',
+                          marginTop: '0.25rem'}}
+                          >Wendel Odom</h3>;
 
 
 ReactDom.render(<BookList />, document.getElementById('root'));
