@@ -40,6 +40,5 @@ h2 {
 }
 
 .book h3 {
-    color: red; /* inline html has more priority */
-    letter-spacing: 5px;
+    color: grey;
 }
