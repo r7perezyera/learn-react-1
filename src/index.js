@@ -14,11 +14,8 @@ function BookList() {
 
 
 const author = 'Wendel Odom';
-
 const Book = () => {
-  
   const title = 'CCNA 200-301 official cert guide!!';
-  
   return (
     <article className="book">
       <img
@@ -27,6 +24,7 @@ const Book = () => {
       />
       
       {/* ONLY values here. NO JS statements */}
+      {/* but takeaway is we can acces JS within our JSX */}
       <h2>{title}</h2>
       <h3>{author.toUpperCase()}</h3>
       
