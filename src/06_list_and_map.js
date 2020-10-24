@@ -1,21 +1,20 @@
 import React from 'react';
 import ReactDom from 'react-dom';
 
-import './index.css'
+import './index.css';
 
 const books = [
   {
     title: 'CCNA 200-301 official cert guide!!',
     author: 'Wendel Odom',
-    imgUrl: 'https://m.media-amazon.com/images/I/51kMtpaJQNL._SS135_.jpg'
+    imgUrl: 'https://m.media-amazon.com/images/I/51kMtpaJQNL._SS135_.jpg',
   },
   {
     title: 'CCNA 200-301 official cert guide!!',
     author: 'Wendel Odom',
     imgUrl: 'https://m.media-amazon.com/images/I/51kMtpaJQNL._SS135_.jpg',
-  }
+  },
 ];
-
 
 const names = ['Valtteri', 'Daniel', 'Lewis'];
 const fNames = names.map((name) => {
@@ -32,7 +31,7 @@ function BookList() {
 }
 
 const Book = (props) => {
-  const {title, author, imgUrl, ans} = props;
+  const { title, author, imgUrl, ans } = props;
   return (
     <article className="book">
       <img src={imgUrl} alt="Certification book" />
@@ -44,7 +43,5 @@ const Book = (props) => {
     </article>
   );
 };
-
-
 
 ReactDom.render(<BookList />, document.getElementById('root'));
